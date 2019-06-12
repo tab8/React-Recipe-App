@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <Router>
         <main>
-          {/*navbar*/}
           <Navbar />
           <Switch>
             <Route path="/" exact component={Home} />

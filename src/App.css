@@ -3,7 +3,7 @@ body {
 }
 
 .text-slanted {
-  font-family: "Amatic SC", cursive;
+  font-family: cursive;
 }
 
 .text-green {
@@ -12,4 +12,10 @@ body {
 
 .letter-spacing {
   letter-spacing: 0.5rem;
+}
+
+.header-hero {
+  min-height: calc(100vh - 64px);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../src/images/delish2.jpg") center/cover no-repeat;
 }
