@@ -10,6 +10,7 @@ export default class Recipe extends Component {
       recipe_id,
       image_url
     } = this.props.recipe;
+    // console.log(this.props);
 
     return (
       <div className="col-10 mx-auto col-md-6 col-lg-4 my-3">
