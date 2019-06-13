@@ -10,12 +10,22 @@ body {
   color: #008000;
 }
 
+.text-red {
+  color: red;
+}
+
 .letter-spacing {
   letter-spacing: 0.5rem;
 }
 
-.header-hero {
+.header-hero,
+.default-hero {
   min-height: calc(100vh - 64px);
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../src/images/delish2.jpg") center/cover no-repeat;
+}
+.default-hero {
+  min-height: calc(100vh - 64px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/images/delish1.png") center/cover no-repeat;
 }
